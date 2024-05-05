@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\bin\Debug\net7.0\CHWDotNetCore.Shared.deps.json
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\bin\Debug\net7.0\CHWDotNetCore.Shared.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\bin\Debug\net7.0\CHWDotNetCore.Shared.pdb
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.AssemblyInfo.cs
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.sourcelink.json
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\refint\CHWDotNetCore.Shared.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\CHWDotNetCore.Shared.pdb
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.Shared\obj\Debug\net7.0\ref\CHWDotNetCore.Shared.dll

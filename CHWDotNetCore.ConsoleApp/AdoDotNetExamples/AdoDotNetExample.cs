@@ -118,8 +118,7 @@ namespace CHWDotNetCore.ConsoleApp.AdoDotNetExamples
             connection.Open();
 
             string query = @"UPDATE [dbo].[Tbl_Blog]
-   SET [BlogTitle] = @BlogTitle,
-       [BlogAuthor] = @BlogAuthor,
+   SET [BlogTitle] = @BlogTitle,      [BlogAuthor] = @BlogAuthor,
        [BlogContent] = @BlogContent
  WHERE [BlogId] = @BlogId";
             SqlCommand cmd = new SqlCommand(query, connection);
