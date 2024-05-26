@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BCobz1TLoMBM2a/cEF1p6n5pHR7Y27u4y0bgLyWIy8U=",
+  "Source": "CHWDotNetCore.PizzaApi",
+  "BasePath": "_content/CHWDotNetCore.PizzaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

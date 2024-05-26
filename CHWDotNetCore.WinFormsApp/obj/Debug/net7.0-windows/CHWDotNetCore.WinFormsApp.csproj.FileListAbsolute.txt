@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\bin\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.exe
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\bin\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.deps.json
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\bin\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.runtimeconfig.json
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\bin\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\bin\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.pdb
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.csproj.GenerateResource.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.AssemblyInfo.cs
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.sourcelink.json
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\refint\CHWDotNetCore.WinFormsApp.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.pdb
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.genruntimeconfig.cache
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\ref\CHWDotNetCore.WinFormsApp.dll
+C:\Users\user\source\repos\CHWDotNetCore\CHWDotNetCore.WinFormsApp\obj\Debug\net7.0-windows\CHWDotNetCore.WinFormsApp.FrmBlog.resources

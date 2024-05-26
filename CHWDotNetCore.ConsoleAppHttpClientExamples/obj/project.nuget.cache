@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xo4Q82GiXXTwMGloFujjlyEjFQE6lli+vHzFLE667LKGr75L5vjUtlSIxXA3pGSI7SZQKKj6Oc6jm3UFIFnRqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.ConsoleAppHttpClientExamples\\CHWDotNetCore.ConsoleAppHttpClientExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

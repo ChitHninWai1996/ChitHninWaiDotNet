@@ -43,5 +43,13 @@ namespace CHWDotNetCore.Shared
             var result = db.Execute(query, param);
             return result;
         }
+<<<<<<< HEAD
+=======
+
+        public object QueryFirstOrDefault<T>(object pizza)
+        {
+            throw new NotImplementedException();
+        }
+>>>>>>> 78853bf (t)
     }
 }

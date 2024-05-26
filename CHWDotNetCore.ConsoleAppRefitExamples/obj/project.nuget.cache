@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/GvCRkYN3Cls88w7bzpu0Dbyx0WSoy579na4WvzeuUcbEU9wKnn4CeO/FH/7eesWaEEm/1v4W4HmwJHaVljs5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.ConsoleAppRefitExamples\\CHWDotNetCore.ConsoleAppRefitExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Zyy99SffSoGxofs7JskEQGELxBvRX5vxcY9TCSsB0VpapdQBrrvg2kzyPUqYU9aVkxpgCCKcnhMkLvPbbEcxfg==",
+=======
+  "dgSpecHash": "H2Pq2OKjS+BtS6V6ff8FIcELyyT6PKD1mfHFfCZ+yDgniwTzuMQJHdFUrEj+Ni2g9wgg+cTh9fxBRseSs3CFIg==",
+>>>>>>> 78853bf (t)
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.ConsoleApp\\CHWDotNetCore.ConsoleApp.csproj",
   "expectedPackageFiles": [

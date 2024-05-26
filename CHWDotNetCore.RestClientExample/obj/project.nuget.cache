@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kNes+D2VuF8bx3BmnILCpm9Iu+RdW0h52vSE5qpWn9znCWRTWsnSC+DTaks3+AEjq94pRuBAYOXshtzlJCkuRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.RestClientExample\\CHWDotNetCore.RestClientExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\restsharp\\110.2.1-alpha.0.20\\restsharp.110.2.1-alpha.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

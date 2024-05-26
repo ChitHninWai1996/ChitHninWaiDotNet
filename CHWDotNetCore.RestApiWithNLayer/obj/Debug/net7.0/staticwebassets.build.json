@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GSRDaJQlxQItuaiLPBjrkE2XJst6hnH12BX+0iN1aOg=",
+  "Source": "CHWDotNetCore.RestApiWithNLayer",
+  "BasePath": "_content/CHWDotNetCore.RestApiWithNLayer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

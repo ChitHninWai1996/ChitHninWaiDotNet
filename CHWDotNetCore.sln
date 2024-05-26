@@ -12,7 +12,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.RestApi", "CHWDotNetCore.RestApi\CHWDotNetCore.RestApi.csproj", "{00647F9E-ABC1-48F6-9C6E-D0F9D99AD83A}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWDotNetCore.Shared", "CHWDotNetCore.Shared\CHWDotNetCore.Shared.csproj", "{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.Shared", "CHWDotNetCore.Shared\CHWDotNetCore.Shared.csproj", "{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.RestApiWithNLayer", "CHWDotNetCore.RestApiWithNLayer\CHWDotNetCore.RestApiWithNLayer.csproj", "{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.ConsoleAppHttpClient", "CHWDotNetCore.ConsoleAppHttpClient\CHWDotNetCore.ConsoleAppHttpClient.csproj", "{EF4F5BBC-24D8-49B8-9826-658A72B3F713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.ConsoleAppHttpClientExamples", "CHWDotNetCore.ConsoleAppHttpClientExamples\CHWDotNetCore.ConsoleAppHttpClientExamples.csproj", "{DD9DEB46-614F-43BD-B002-170D9509930B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.RestClientExample", "CHWDotNetCore.RestClientExample\CHWDotNetCore.RestClientExample.csproj", "{34C14484-D79E-467E-A406-630D2CE3DED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.PizzaApi", "CHWDotNetCore.PizzaApi\CHWDotNetCore.PizzaApi.csproj", "{054416A4-89BA-4EB4-B925-68763C1FD033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.ConsoleAppRefitExamples", "CHWDotNetCore.ConsoleAppRefitExamples\CHWDotNetCore.ConsoleAppRefitExamples.csproj", "{4E0CB119-6FA7-4E36-B263-A65E96483648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.WinFormApp", "CHWDotNetCore.WinFormApp\CHWDotNetCore.WinFormApp.csproj", "{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWDotNetCore.HttpClients", "CHWDotNetCore.HttpClients\CHWDotNetCore.HttpClients.csproj", "{8BF969F3-2DE0-4173-BD74-1CD387DB755D}"
+>>>>>>> 78853bf (t)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +52,41 @@ Global
 		{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4F5BBC-24D8-49B8-9826-658A72B3F713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4F5BBC-24D8-49B8-9826-658A72B3F713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4F5BBC-24D8-49B8-9826-658A72B3F713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4F5BBC-24D8-49B8-9826-658A72B3F713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9DEB46-614F-43BD-B002-170D9509930B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9DEB46-614F-43BD-B002-170D9509930B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9DEB46-614F-43BD-B002-170D9509930B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9DEB46-614F-43BD-B002-170D9509930B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C14484-D79E-467E-A406-630D2CE3DED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C14484-D79E-467E-A406-630D2CE3DED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C14484-D79E-467E-A406-630D2CE3DED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C14484-D79E-467E-A406-630D2CE3DED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054416A4-89BA-4EB4-B925-68763C1FD033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054416A4-89BA-4EB4-B925-68763C1FD033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054416A4-89BA-4EB4-B925-68763C1FD033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054416A4-89BA-4EB4-B925-68763C1FD033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0CB119-6FA7-4E36-B263-A65E96483648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0CB119-6FA7-4E36-B263-A65E96483648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0CB119-6FA7-4E36-B263-A65E96483648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0CB119-6FA7-4E36-B263-A65E96483648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 78853bf (t)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
