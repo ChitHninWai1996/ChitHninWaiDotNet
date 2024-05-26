@@ -1,10 +1,17 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Ex/JvWHMzUHedk/NWnEHwWxK1DhMTCCB+vdUU/+R1DKRU8XTtV2YR3umNrPVZ5CRoXp73E4aTAIYG2wQ2cp/KA==",
 =======
   "dgSpecHash": "bo0DwyTSykftCY2qxvKKjpVKt/JMY4YYw2hO7YBB10PxV+UCBlpdatnC9zjC83iiQeex0DLkoSTqWrWnQOUj9Q==",
 >>>>>>> 78853bf (t)
+=======
+  "dgSpecHash": "bo0DwyTSykftCY2qxvKKjpVKt/JMY4YYw2hO7YBB10PxV+UCBlpdatnC9zjC83iiQeex0DLkoSTqWrWnQOUj9Q==",
+=======
+  "dgSpecHash": "Ex/JvWHMzUHedk/NWnEHwWxK1DhMTCCB+vdUU/+R1DKRU8XTtV2YR3umNrPVZ5CRoXp73E4aTAIYG2wQ2cp/KA==",
+>>>>>>> e046efd6babb1a8201f8b3ef2936e471d16cbb12
+>>>>>>> 71d4006 (updated)
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.RestApi\\CHWDotNetCore.RestApi.csproj",
   "expectedPackageFiles": [

@@ -13,8 +13,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.RestApi", "CHWDotNetCore.RestApi\CHWDotNetCore.RestApi.csproj", "{00647F9E-ABC1-48F6-9C6E-D0F9D99AD83A}"
 EndProject
 <<<<<<< HEAD
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWDotNetCore.Shared", "CHWDotNetCore.Shared\CHWDotNetCore.Shared.csproj", "{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}"
 =======
+=======
+>>>>>>> 71d4006 (updated)
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.Shared", "CHWDotNetCore.Shared\CHWDotNetCore.Shared.csproj", "{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.RestApiWithNLayer", "CHWDotNetCore.RestApiWithNLayer\CHWDotNetCore.RestApiWithNLayer.csproj", "{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}"
@@ -32,7 +35,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHWDotNetCore.WinFormApp", "CHWDotNetCore.WinFormApp\CHWDotNetCore.WinFormApp.csproj", "{4A709A82-BFBA-4D77-BD81-A793CF6D57A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWDotNetCore.HttpClients", "CHWDotNetCore.HttpClients\CHWDotNetCore.HttpClients.csproj", "{8BF969F3-2DE0-4173-BD74-1CD387DB755D}"
+<<<<<<< HEAD
 >>>>>>> 78853bf (t)
+=======
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHWDotNetCore.Shared", "CHWDotNetCore.Shared\CHWDotNetCore.Shared.csproj", "{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}"
+>>>>>>> e046efd6babb1a8201f8b3ef2936e471d16cbb12
+>>>>>>> 71d4006 (updated)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,7 +62,10 @@ Global
 		{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB80A2A3-9AFA-4E98-B39B-9E15AC19F798}.Release|Any CPU.Build.0 = Release|Any CPU
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 71d4006 (updated)
 		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AF6C397-C7EB-421D-B0C5-8D8C12C4847A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,7 +98,12 @@ Global
 		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BF969F3-2DE0-4173-BD74-1CD387DB755D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 >>>>>>> 78853bf (t)
+=======
+=======
+>>>>>>> e046efd6babb1a8201f8b3ef2936e471d16cbb12
+>>>>>>> 71d4006 (updated)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

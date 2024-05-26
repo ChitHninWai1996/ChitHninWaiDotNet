@@ -44,12 +44,20 @@ namespace CHWDotNetCore.Shared
             return result;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 71d4006 (updated)
 
         public object QueryFirstOrDefault<T>(object pizza)
         {
             throw new NotImplementedException();
         }
+<<<<<<< HEAD
 >>>>>>> 78853bf (t)
+=======
+=======
+>>>>>>> e046efd6babb1a8201f8b3ef2936e471d16cbb12
+>>>>>>> 71d4006 (updated)
     }
 }

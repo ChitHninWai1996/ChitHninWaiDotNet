@@ -1,10 +1,17 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Zyy99SffSoGxofs7JskEQGELxBvRX5vxcY9TCSsB0VpapdQBrrvg2kzyPUqYU9aVkxpgCCKcnhMkLvPbbEcxfg==",
 =======
   "dgSpecHash": "H2Pq2OKjS+BtS6V6ff8FIcELyyT6PKD1mfHFfCZ+yDgniwTzuMQJHdFUrEj+Ni2g9wgg+cTh9fxBRseSs3CFIg==",
 >>>>>>> 78853bf (t)
+=======
+  "dgSpecHash": "H2Pq2OKjS+BtS6V6ff8FIcELyyT6PKD1mfHFfCZ+yDgniwTzuMQJHdFUrEj+Ni2g9wgg+cTh9fxBRseSs3CFIg==",
+=======
+  "dgSpecHash": "Zyy99SffSoGxofs7JskEQGELxBvRX5vxcY9TCSsB0VpapdQBrrvg2kzyPUqYU9aVkxpgCCKcnhMkLvPbbEcxfg==",
+>>>>>>> e046efd6babb1a8201f8b3ef2936e471d16cbb12
+>>>>>>> 71d4006 (updated)
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CHWDotNetCore\\CHWDotNetCore.ConsoleApp\\CHWDotNetCore.ConsoleApp.csproj",
   "expectedPackageFiles": [
