@@ -3,6 +3,61 @@ const tblBlog = "blogs";
 let blogId = null;
 
 getBlogTable();
+//testConfirmMessage();
+//testConfirmMessage2();
+
+function testConfirmMessage() {
+    let confirmMessage = new Promise(function (success, error) {
+        const result = confirm("Are you sure want to delete?");
+        if (result) {
+            success();
+        } else {
+            error();
+        }
+
+    });
+
+    // "Consuming Code" (Must wait for a fulfilled Promise)
+    confirmMessage.then(
+        function (value) {
+            successMessage("Success");
+        },
+        function (error) {
+            errorMessage("Error");
+        }
+    );
+}
+
+function testConfirmMessage2() {
+    let confirmMessage = new Promise(function (success, error) {
+
+        Swal.fire({
+            title: "Confirm",
+            text: "Are you sure want to delete?",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                success();
+            } else {
+                error();
+            }
+
+        });
+    });
+
+    // "Consuming Code" (Must wait for a fulfilled Promise)
+    confirmMessage.then(
+        function (value) {
+            successMessage("Success");
+        },
+        function (error) {
+            errorMessage("Error");
+        }
+    );
+}
+
 //readBlog();
 //createBlog();
 //updateBlog("440897e0-4893-4a76-a0f9-2f56fceeccbf", "tttt", "aaaaa", "ccc");
@@ -13,15 +68,16 @@ function readBlog() {
     console.log(lst);
 }
 
-function editBlog(id){
+function editBlog(id) {
+
     let lst = getBlogs();
-    
+
     const items = lst.filter(x => x.id === id);
     console.log(items);
 
     console.log(items.length);
 
-    if (items.length == 0){
+    if (items.length == 0) {
         console.log("no data found.");
         errorMessage("no data found.");
         return;
@@ -39,9 +95,9 @@ function editBlog(id){
 
 function createBlog(title, author, content) {
     let lst = getBlogs();
-    
+
     const requestModel = {
-        id : uuidv4(),
+        id: uuidv4(),
         title: title,
         author: author,
         content: content
@@ -57,15 +113,15 @@ function createBlog(title, author, content) {
 }
 
 function updateBlog(id, title, author, content) {
-    
+
     let lst = getBlogs();
-    
+
     const items = lst.filter(x => x.id === id);
     console.log(items);
 
     console.log(items.length);
 
-    if (items.length == 0){
+    if (items.length == 0) {
         console.log("no data found.");
         errorMessage("no data found.");
         return;
@@ -85,50 +141,105 @@ function updateBlog(id, title, author, content) {
     successMessage("Updating Successful.");
 }
 
-function deleteBlog(id){
+function deleteBlog2(id) {
     let result = confirm("are you sure want to delete?");
     if (!result) return;
 
     let lst = getBlogs();
 
     const items = lst.filter(x => x.id === id);
-    if (items.length == 0){
+    if (items.length == 0) {
         console.log("no data found.");
         return;
     }
 
-    lst = lst.filter(x=> x.id !== id);
+    lst = lst.filter(x => x.id !== id);
     const jsonBlog = JSON.stringify(lst);
     localStorage.setItem(tblBlog, jsonBlog);
 
     successMessage("Deleting Successful");
-    
+
     getBlogTable();
 }
 
-function uuidv4() {
-    return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>
-      (+c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> +c / 4).toString(16)
+function deleteBlog3(id) {
+
+    Swal.fire({
+        title: "Confirm",
+        text: "Are you sure want to delete?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+    }).then((result) => {
+        if (!result.isConfirmed) return;
+        let lst = getBlogs();
+
+        const items = lst.filter(x => x.id === id);
+        if (items.length == 0) {
+            console.log("no data found.");
+            return;
+        }
+
+        lst = lst.filter(x => x.id !== id);
+        const jsonBlog = JSON.stringify(lst);
+        localStorage.setItem(tblBlog, jsonBlog);
+
+        successMessage("Deleting Successful");
+
+        getBlogTable();
+
+    });
+
+
+}
+
+function deleteBlog(id) {
+
+    confirmMessage("Are you sure want to delete?").then(
+        function (value) {
+
+            let lst = getBlogs();
+
+            const items = lst.filter(x => x.id === id);
+            if (items.length == 0) {
+                console.log("no data found.");
+                return;
+            }
+
+            lst = lst.filter(x => x.id !== id);
+            const jsonBlog = JSON.stringify(lst);
+            localStorage.setItem(tblBlog, jsonBlog);
+
+            successMessage("Deleting Successful");
+
+            getBlogTable();
+
+        }
     );
 }
 
-function getBlogs(){
+
+
+
+function getBlogs() {
     const blogs = localStorage.getItem(tblBlog);
     console.log(blogs);
 
     let lst = [];
     if (blogs !== null) {
-        lst = JSON.parse(blogs);  
+        lst = JSON.parse(blogs);
     }
     return lst;
 }
 
-$('#btnSave').click(function(){
+$('#btnSave').click(function () {
     const title = $('#txtTitle').val();
     const author = $('#txtAuthor').val();
     const content = $('#txtContent').val();
 
-    if (blogId === null){
+    if (blogId === null) {
         createBlog(title, author, content);
     }
     else {
@@ -139,15 +250,9 @@ $('#btnSave').click(function(){
     getBlogTable();
 })
 
-function successMessage(message){
-    alert(message);
-}
 
-function errorMessage(message){
-    alert(message);
-}
 
-function clearControls(){
+function clearControls() {
     $('#txtTitle').val('');
     $('#txtAuthor').val('');
     $('#txtContent').val('');
@@ -162,8 +267,8 @@ function getBlogTable() {
         const htmlRow = `
     <tr>
       <td>
-        <button type="button" class="btn btn-warning" onclick="editBlog('${item.id}')">Edit</button>
-        <button type="button" class="btn btn-danger" onclick="deleteBlog('${item.id}')">Delete</button>
+        <button type="button" class="btn btn-warning" data-id="${item.id}" onclick="editBlog('${item.id}')">Edit</button>
+        <button type="button" class="btn btn-danger" data-blog-id="${item.id}" onclick="deleteBlog('${item.id}')">Delete</button>
       </td>
       <td>${++count}</td>
       <td>${item.title}</td>
@@ -171,7 +276,7 @@ function getBlogTable() {
       <td>${item.content}</td>
     </tr>
     `;
-    htmlRows += htmlRow;
+        htmlRows += htmlRow;
     });
 
     $('#tbody').html(htmlRows);
